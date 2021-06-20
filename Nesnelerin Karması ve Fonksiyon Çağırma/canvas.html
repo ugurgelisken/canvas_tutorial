@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<style>
+		canvas {
+			border: 1px solid black;
+		}
+		button{
+			display: inline-block;
+		}
+	</style>
+</head>
+	<body>
+		<button onclick="karma('source-over')">Source Over</button>
+		<button onclick="karma('source-in')">Source In</button>
+		<button onclick="karma('source-out')">Source Out</button>
+		<button onclick="karma('source-atop')">Source Atop</button><br>
+		<button onclick="karma('destination-over')">Destination Over</button>
+		<button onclick="karma('destination-in')">Destination In</button>
+		<button onclick="karma('destination-out')">Destination Out</button>
+		<button onclick="karma('destination-atop')">Destination Atop</button><br>
+		<button onclick="karma('lighter')">Lighter</button>
+		<button onclick="karma('darker')">Darker</button>
+		<button onclick="karma('copy')">Copy</button>
+		<button onclick="karma('xor')">Xor</button>
+		<br><br>
+		<canvas id="tuval" width="400" height="400px" />
+		<script src="canvas_script.js"></script>
+	</body>
+</html>
